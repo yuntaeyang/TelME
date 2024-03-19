@@ -18,7 +18,7 @@
 12. python 3.9
 
 ### Datasets
-Each data is split into train/dev/test in the dataset folder.(However, we do not provide video clip here.)
+Each data is split into train/dev/test in the dataset folder.(However, we do not provide video clip here.)
 1. MELD
 2. IEMOCAP
 
