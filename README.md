@@ -23,6 +23,18 @@ Each data is split into train/dev/test in the dataset folder.(However, we do not
 2. IEMOCAP
 
 ### Train
+for MELD
+python ./MELD/teacher.py
+python ./MELD/student.py
+python ./MELD/fusion.py
+
+for IEMOCAP
+python ./IEMOCAP/teacher.py
+python ./IEMOCAP/student.py
+python ./IEMOCAP/fusion.py
 
 ### Testing with pretrained TelME
 
+* model drive
+* python ./MELD/fusion.py
+* python ./IEMOCAP/fusion.py
