@@ -29,7 +29,8 @@ python IEMOCAP/fusion.py
 ```
 
 ## Testing with pretrained TelME
-* Unpack model.tar.gz and place each Save_model Folder within [MELD](https://github.com/yuntaeyang/TelME/tree/main/MELD) and [IEMOCAP](https://github.com/yuntaeyang/TelME/tree/main/IEMOCAP)
+- [Goole Drive](https://drive.google.com/file/d/1JIh77AqJ-mfME-nxv8r7hU3UZSrGukv0/view?usp=sharing)
+- Unpack model.tar.gz and place each Save_model Folder within [MELD](https://github.com/yuntaeyang/TelME/tree/main/MELD) and [IEMOCAP](https://github.com/yuntaeyang/TelME/tree/main/IEMOCAP)
 ```
 |- MELD/
 |   |- save_model/
@@ -40,7 +41,14 @@ python IEMOCAP/fusion.py
 |   |- save_model/
        |- ...
 ```
-- [Goole Drive](https://drive.google.com/file/d/1JIh77AqJ-mfME-nxv8r7hU3UZSrGukv0/view?usp=sharing)
+
+Running inference.py allows you to reproduce the results.
+```bash
+python MELD/inference.py
+python IMEOCAP/inference.py
+```
+
+
 
 ## Citation
 
