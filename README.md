@@ -29,7 +29,17 @@ python IEMOCAP/fusion.py
 ```
 
 ## Testing with pretrained TelME
-* Unpack model.tar.gz and place each Save_model Folder within [MELD.Raw](https://github.com/yuntaeyang/TelME/tree/main/dataset/MELD.Raw) and [IEMOCAP_full_release](https://github.com/yuntaeyang/TelME/tree/main/dataset/IEMOCAP_full_release)
+* Unpack model.tar.gz and place each Save_model Folder within [MELD](https://github.com/yuntaeyang/TelME/tree/main/MELD) and [IEMOCAP](https://github.com/yuntaeyang/TelME/tree/main/IEMOCAP)
+```
+|- MELD/
+|   |- save_model/
+       |- ...
+```
+```
+|- IEMOCAP/
+|   |- save_model/
+       |- ...
+```
 - [Goole Drive](https://drive.google.com/file/d/1JIh77AqJ-mfME-nxv8r7hU3UZSrGukv0/view?usp=sharing)
 
 ## Citation
