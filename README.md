@@ -29,7 +29,8 @@ python IEMOCAP/fusion.py
 ```
 
 ## Testing with pretrained TelME
-- [Naver drive]
+* Unpack model.tar.gz and place each Save_model Folder within [MELD.Raw](https://github.com/yuntaeyang/TelME/tree/main/dataset/MELD.Raw) and [IEMOCAP_full_release](https://github.com/yuntaeyang/TelME/tree/main/dataset/IEMOCAP_full_release)
+- [Goole Drive](https://drive.google.com/file/d/1JIh77AqJ-mfME-nxv8r7hU3UZSrGukv0/view?usp=sharing)
 
 ## Citation
 
