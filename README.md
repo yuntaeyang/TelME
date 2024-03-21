@@ -45,7 +45,7 @@ python IEMOCAP/fusion.py
 Running inference.py allows you to reproduce the results.
 ```bash
 python MELD/inference.py
-python IMEOCAP/inference.py
+python IEMOCAP/inference.py
 ```
 
 
