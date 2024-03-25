@@ -51,4 +51,11 @@ python IEMOCAP/inference.py
 
 
 ## Citation
-
+```
+@article{yun2024telme,
+  title={TelME: Teacher-leading Multimodal Fusion Network for Emotion Recognition in Conversation},
+  author={Yun, Taeyang and Lim, Hyunkuk and Lee, Jeonghwan and Song, Min},
+  journal={arXiv preprint arXiv:2401.12987},
+  year={2024}
+}
+```
