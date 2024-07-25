@@ -110,14 +110,14 @@ def main(args):
 
     '''student model'''
     audio_s = Student_Audio(audio_model, clsNum, init_config)
-    audio_s.load_state_dict(torch.load('./IEMOCAP/save_model/student_audio/low_logit_student.bin'))
+    audio_s.load_state_dict(torch.load('./IEMOCAP/save_model/student_audio/total_student.bin'))
     for para in audio_s.parameters():
         para.requires_grad = False
     audio_s = audio_s.cuda()
     audio_s.eval()
 
     video_s = Student_Video(video_model, clsNum)
-    video_s.load_state_dict(torch.load('./IEMOCAP/save_model/student_video/low_logit_student.bin'))
+    video_s.load_state_dict(torch.load('./IEMOCAP/save_model/student_video/total_student.bin'))
     for para in video_s.parameters():
         para.requires_grad = False
     video_s = video_s.cuda()
@@ -126,7 +126,7 @@ def main(args):
     '''fusion'''
     hidden_size, beta_shift, dropout_prob, num_head = 768, 2e-1, 0.2, 4
     fusion = ASF(clsNum, hidden_size, beta_shift, dropout_prob, num_head)
-    fusion.load_state_dict(torch.load('./IEMOCAP/save_model/low_logit_fusion.bin')) 
+    fusion.load_state_dict(torch.load('./IEMOCAP/save_model/total_fusion.bin')) 
     for para in fusion.parameters():
         para.requires_grad = False
     fusion = fusion.cuda()
